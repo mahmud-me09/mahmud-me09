@@ -9,23 +9,19 @@
 			href="assets/Mahmud.jpg"
 			type="image/x-icon"
 		/>
-    <link rel="stylesheet" href="assets/style.css">
+		<link rel="stylesheet" href="assets/style.css" />
 		<script src="https://cdn.tailwindcss.com"></script>
 		<link
 			href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
 			rel="stylesheet"
 			type="text/css"
 		/>
-		<style>
-      
-    </style>
+		<style></style>
 		<script>
 			tailwind.config = {
 				theme: {
 					extend: {
-						colors: {
-							
-						},
+						colors: {},
 					},
 				},
 			};
@@ -127,16 +123,50 @@
 				</div>
 			</nav>
 
+			<div class="w-fit float-left pt-24 -ml-24 fixed">
+				<ul
+					class="p-2 hidden lg:flex flex-col gap-4 border rounded-l-lg bg-emerald-950"
+				>
+					<li class="text-white font-bold">Find me at</li>
+					<li class="btn">
+						<a
+							href="https://www.linkedin.com/in/mahmud-hasan-webdev"
+							target="_blank"
+							><img
+								src="https://i.ibb.co/RCF4sgP/icons8-linkedin-96.png"
+								alt="icons8-linkedin-96"
+								class="w-10"
+								border="0"
+						/></a>
+					</li>
+					<li class="btn">
+						<a href="mailto:mahmud.me09@gmail.com"
+							><img
+								src="https://i.ibb.co/LgJkmX2/icons8-gmail-96.png"
+								alt="icons8-gmail-96"
+								border="0"
+								class="w-10"
+						/></a>
+					</li>
+				</ul>
+			</div>
 			<!-- Intro Section -->
 			<section id="about" class="p-10 bg-white shadow-lg">
 				<div class="container mx-auto text-center animate-on-hover">
-          <h1 class="text-4xl tracking-widest font-bold mb-4 text-center animated-text" data-text="Hello World!">
-                <span>H</span><span>e</span><span>l</span><span>l</span><span>o</span>
-                <span> </span><span>W</span><span>o</span><span>r</span><span>l</span><span>d</span><span>!</span>
-                <span class="cursor">|</span>
-            </h1>
-        </div>
-				<div class="container mx-auto text-center flex flex-col lg:flex-row justify-center">
+					<h1
+						class="text-4xl tracking-widest font-bold mb-4 text-center animated-text"
+						data-text="Hello World!"
+					>
+						<span>H</span><span>e</span><span>l</span><span>l</span
+						><span>o</span> <span> </span><span>W</span
+						><span>o</span><span>r</span><span>l</span><span>d</span
+						><span>!</span>
+						<span class="cursor">|</span>
+					</h1>
+				</div>
+				<div
+					class="container mx-auto text-center flex flex-col lg:flex-row justify-center"
+				>
 					<div class="lg:border-r w-full lg:w-1/2 mb-4">
 						<h1 class="text-xl lg:text-4xl mb-2">
 							I am <br />
@@ -150,21 +180,30 @@
 							/>
 						</div>
 					</div>
-					<div class="w-full lg:w-1/2 flex flex-col justify-center px-5">
-						<p class="text-lg text-gray-700 mb-6">
-							I am a passionate Frontend Developer with experience
-							in building web applications using modern
-							technologies. I enjoy turning complex problems into
-							simple, beautiful, and intuitive designs.
+					<div
+						class="w-full lg:w-1/2 flex flex-col justify-center px-5"
+					>
+						<p class="text-lg text-gray-700 mb-6 text-justify">
+							Playing with code is one of my hobbies. My
+							fascination with programming languages has led me
+							into web development arena. My preferred tech stack
+							revolves around MongoDB, ExpressJS, ReactJS, and
+							NodeJS (MERN Stack), and Firebase for
+							authentication. I take pride in seamlessly
+							integrating these technologies into my projects. I
+							also work with Python and its frameworks like
+							Django, Django REST Framework. I am now exploring
+							backend technologies and tools to integrate in my
+							future projects. I love to explore new things.
 						</p>
-            <div class="flex justify-center gap-6">
-              <button class="btn btn-primary">
-							<a href="#contact">Get in Touch</a>
-						</button>
-              <button class="btn btn-primary">
-							<a href="#contact">Get Me Hired</a>
-						</button>
-            </div>
+						<div class="flex justify-center gap-6">
+							<button class="btn btn-primary">
+								<a href="#contact">Get in Touch</a>
+							</button>
+							<button class="btn btn-primary">
+								<a href="#contact">Get Me Hired</a>
+							</button>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -190,37 +229,158 @@
 						Skillsets
 					</h2>
 					<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-						<div class="p-4 bg-gray-100 rounded-lg shadow">
+						<!-- HTML -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+								alt="HTML5"
+								width="50"
+								height="50"
+							/>
 							<h3 class="text-xl font-semibold mb-2">HTML</h3>
-							<p>
+							<p class="text-justify">
 								Proficient in creating structured and semantic
 								web pages.
 							</p>
 						</div>
-						<div class="p-4 bg-gray-100 rounded-lg shadow">
-							<h3 class="text-xl font-semibold mb-2">CSS</h3>
-							<p>
+						<!-- CSS3 -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+								alt="CSS3"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">CSS3</h3>
+							<p class="text-justify">
 								Experienced in designing responsive and visually
 								appealing layouts.
 							</p>
 						</div>
-						<div class="p-4 bg-gray-100 rounded-lg shadow">
+						<!-- TailwindCSS -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+								alt="Tailwind CSS"
+								width="50"
+								height="50"
+							/>
 							<h3 class="text-xl font-semibold mb-2">
-								JavaScript
+								TailwindCSS
 							</h3>
-							<p>
-								Skilled in adding dynamic and interactive
-								elements to web pages.
+							<p class="text-justify">
+								Skilled in building modern, utility-first CSS
+								frameworks to enhance web design efficiency.
 							</p>
 						</div>
-						<div class="p-4 bg-gray-100 rounded-lg shadow">
-							<h3 class="text-xl font-semibold mb-2">React</h3>
-							<p>
-								Knowledgeable in building single-page
-								applications with React.
+						<!-- Vanilla JavaScript -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">
+								Vanilla JavaScript
+							</h3>
+							<p class="text-justify">
+								Proficient in scripting for dynamic and
+								interactive web functionalities.
 							</p>
 						</div>
-						<!-- Add more skills as needed -->
+						<!-- ReactJS -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+								alt="ReactJS"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">ReactJS</h3>
+							<p class="text-justify">
+								Experienced in building single-page applications
+								and UI components with React.
+							</p>
+						</div>
+						<!-- MongoDB -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+								alt="MongoDB"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">MongoDB</h3>
+							<p class="text-justify">
+								Skilled in working with NoSQL databases for
+								scalable and high-performance data management.
+							</p>
+						</div>
+						<!-- ExpressJS -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+								alt="Express.js"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">
+								ExpressJS
+							</h3>
+							<p class="text-justify">
+								Experienced in developing server-side
+								applications with ExpressJS.
+							</p>
+						</div>
+						<!-- NodeJS -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+								alt="NodeJS"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">NodeJS</h3>
+							<p class="text-justify">
+								Proficient in building scalable server-side
+								applications and APIs with NodeJS.
+							</p>
+						</div>
+						<!-- Firebase Authentication -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg"
+								alt="Firebase Authentication"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">
+								Firebase Authentication
+							</h3>
+							<p class="text-justify">
+								Skilled in integrating authentication systems
+								using Firebase for secure user management.
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -235,39 +395,76 @@
 						class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
 					>
 						<div class="p-4 bg-white rounded-lg shadow">
-							<h3 class="text-xl font-semibold mb-2">
-								Project 1
+							<h3 class="text-xl font-semibold text-center mb-2">
+								Book Vibe
 							</h3>
-							<p class="text-gray-700">
-								Description of the project.
+							<p class="text-gray-700 pb-3">
+								This is a website to display book database. It will give the readers the opportunity to organize their books, keep track of their perusal, sort the books and many more.
 							</p>
-							<a href="#" class="text-blue-500 hover:underline"
+							<a href="https://massive-nut.surge.sh" target="_blank" class="btn btn-primary btn-block font-bold"
 								>View Project</a
 							>
 						</div>
-						<div class="p-4 bg-white rounded-lg shadow">
-							<h3 class="text-xl font-semibold mb-2">
-								Project 2
+						<div class="p-4 flex flex-col bg-white rounded-lg shadow">
+							<div class="flex-grow">
+                <h3 class="text-xl font-semibold text-center mb-2">
+								Luxury Living
 							</h3>
-							<p class="text-gray-700">
-								Description of the project.
+							<p class="text-gray-700 pb-3">
+								This is a website for a real-estate company to promote their state and closely connect with the client.
 							</p>
-							<a href="#" class="text-blue-500 hover:underline"
+              </div>
+							<div class="">
+                <a href="https://real-estate-6be91.web.app/" target="_blank" class="btn btn-primary btn-block font-bold"
 								>View Project</a
 							>
+              </div>
 						</div>
-						<div class="p-4 bg-white rounded-lg shadow">
-							<h3 class="text-xl font-semibold mb-2">
-								Project 3
+						<div class="p-4 flex flex-col bg-white rounded-lg shadow">
+							<div class="flex-grow">
+                <h3 class="text-xl font-semibold text-center mb-2">
+								Travel Companion
 							</h3>
-							<p class="text-gray-700">
-								Description of the project.
+							<p class="text-gray-700 pb-3">
+								This is a website for a tourism management company for their moderator level access to manage their travel destination promotions and interact with the client.
 							</p>
-							<a href="#" class="text-blue-500 hover:underline"
+              </div>
+							<div class="">
+                <a href="https://tourism-management-72e6b.web.app/" target="_blank" class="btn btn-primary btn-block font-bold"
 								>View Project</a
 							>
+              </div>
 						</div>
-						<!-- Add more projects as needed -->
+						<div class="p-4 flex flex-col bg-white rounded-lg shadow">
+							<div class="flex-grow">
+                <h3 class="text-xl font-semibold text-center mb-2">
+								Global Palate Restaurent Website
+							</h3>
+							<p class="text-gray-700 pb-3">
+								This is a website for a restaurant for their admin, moderator and user level access to manage their food information and promotions and interact with the client to order their food.
+							</p>
+              </div>
+							<div class="">
+                <a href="https://globalpalate-a11-client.web.app/" target="_blank" class="btn btn-primary btn-block font-bold"
+								>View Project</a
+							>
+              </div>
+						</div>
+						<div class="p-4 flex flex-col bg-white rounded-lg shadow">
+							<div class="flex-grow">
+                <h3 class="text-xl font-semibold text-center mb-2">
+								The Morning Tribune Website
+							</h3>
+							<p class="text-gray-700 pb-3">
+								This is a website for a Newspaper publisher for their admin, moderator and user level access to manage their publishing/publishable articles, manage users and publishers. Authors or premium authors can submit their articles to admin for the approval of publishing. Ordinary author can purchase to become premium author.
+							</p>
+              </div>
+							<div class="">
+                <a href="https://globalpalate-a11-client.web.app/" target="_blank" class="btn btn-primary btn-block font-bold"
+								>View Project</a
+							>
+              </div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -278,26 +475,90 @@
 					<h2 class="text-3xl font-bold mb-6 text-center">
 						Education
 					</h2>
-					<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-						<div class="p-4 bg-gray-100 rounded-lg shadow">
+					<div class="grid grid-cols-1 gap-4">
+						<div class="p-4 bg-gray-100 text-center rounded-lg shadow">
 							<h3 class="text-xl font-semibold mb-2">
-								Degree Name
+								Bachelor of Science in Engineering
 							</h3>
-							<p class="text-gray-700">University Name, Year</p>
+							<p class="text-gray-700">Bangladesh University of Engineering and Technology, 2015</p>
 						</div>
-						<div class="p-4 bg-gray-100 rounded-lg shadow">
+					</div>
+				</div>
+			</section>
+			<section id="skills" class="p-10 bg-gray-50 shadow-lg">
+				<div class="container mx-auto">
+					<h2 class="text-3xl font-bold mb-6 text-center">
+						Currently I am Learning
+					</h2>
+					<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg"
+								alt="Next.js"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">Next.js</h3>
+							<p class="text-justify">
+								Learning Next.js for server-side rendering and
+								static site generation with React.
+							</p>
+						</div>
+						<!-- Django -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="50" height="50"/>
+							<h3 class="text-xl font-semibold mb-2">Django</h3>
+							<p class="text-justify">
+								Learning Django for building powerful and
+								scalable web applications in Python.
+							</p>
+						</div>
+						<!-- Django REST Framework -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="assets/djrest.png"
+								alt="Django REST Framework"
+								width="120"
+								height="120"
+							/>
 							<h3 class="text-xl font-semibold mb-2">
-								Another Degree
+								Django REST Framework
 							</h3>
-							<p class="text-gray-700">University Name, Year</p>
+							<p class="text-justify">
+								Learning Django REST Framework for creating
+								robust and flexible APIs.
+							</p>
 						</div>
-						<!-- Add more education details as needed -->
+						<!-- PostgreSQL -->
+						<div
+							class="p-4 bg-gray-100 rounded-lg shadow flex flex-col justify-center items-center"
+						>
+							<img
+								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+								alt="PostgreSQL"
+								width="50"
+								height="50"
+							/>
+							<h3 class="text-xl font-semibold mb-2">
+								PostgreSQL
+							</h3>
+							<p class="text-justify">
+								Learning PostgreSQL for advanced relational
+								database management and querying.
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<!-- Contact Section -->
-			<section id="contact" class="p-10 bg-gray-50">
+			<section id="contact" class="p-10 bg-white">
 				<div class="container mx-auto text-center">
 					<h2 class="text-3xl font-bold mb-4">Contact Me</h2>
 					<p class="text-lg text-gray-700 mb-6">
@@ -342,23 +603,23 @@
 					<p class="text-gray-600">
 						&copy; 2024 Mahmud Hasan Khan. All rights reserved.
 					</p>
-					<div class="flex justify-center mt-4">
+					<div class="flex justify-center gap-4 mt-4">
 						<a
-							href="#"
-							class="mx-2 text-gray-600 hover:text-gray-800"
-							><i class="fab fa-twitter"></i
-						></a>
-						<a
-							href="#"
-							class="mx-2 text-gray-600 hover:text-gray-800"
-							><i class="fab fa-linkedin"></i
-						></a>
-						<a
-							href="#"
-							class="mx-2 text-gray-600 hover:text-gray-800"
-							><i class="fab fa-github"></i
-						></a>
-						<!-- Add more social links as needed -->
+							href="https://www.linkedin.com/in/mahmud-hasan-webdev"
+							target="_blank"
+							><img
+								src="https://i.ibb.co/RCF4sgP/icons8-linkedin-96.png"
+								alt="icons8-linkedin-96"
+								class="w-10"
+								border="0"
+						/></a>
+            <a href="mailto:mahmud.me09@gmail.com"
+							><img
+								src="https://i.ibb.co/LgJkmX2/icons8-gmail-96.png"
+								alt="icons8-gmail-96"
+								border="0"
+								class="w-10"
+						/></a>
 					</div>
 				</div>
 			</footer>
