@@ -1,111 +1,365 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Mahmud</title>
-    <link rel="shortcut icon" href="assets/Mahmud.jpg" type="image/x-icon" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="index.css" />
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-          },
-        },
-      };
-    </script>
-  </head>
-  <body>
-    <nav class="border-b shadow-lg">
-      <div class="drawer">
-        <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content flex flex-col">
-          <!-- Navbar -->
-          <div class="navbar bg-base-300 w-full">
-            <div class="flex-none lg:hidden">
-              <label
-                for="my-drawer-3"
-                aria-label="open sidebar"
-                class="btn btn-square btn-ghost"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  class="inline-block h-6 w-6 stroke-current"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  ></path>
-                </svg>
-              </label>
-            </div>
-            <div class="mx-2 flex-1 px-2">
-                <div class="flex flex-row lg:flex-col justify-center items-center gap-5 lg:gap-1">
-                    <img
-                src="assets/Mahmud.jpg"
-                alt="Mahmud"
-                class="rounded-full border w-16"
-            ></img>
-                    Mahmud's Portfolio
-                </div>
-            </div>
-            <div class="hidden flex-none lg:block">
-              <ul class="menu menu-horizontal">
-                <!-- Navbar menu content here -->
-                <li><a>About Me</a></li>
-                <li><a>Resume</a></li>
-                <li><a>Skillsets</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Education</a></li>
-                <li><a>Contact Me</a></li>
-              </ul>
-              <div class="menu menu-horizontal">
-                <input
-                type="checkbox"
-                value="synthwave"
-                class="toggle theme-controller"
-              />
-              </div>
-            </div>
-          </div>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio | Mahmud</title>
+		<link
+			rel="shortcut icon"
+			href="assets/Mahmud.jpg"
+			type="image/x-icon"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							
+						},
+					},
+				},
+			};
+		</script>
+	</head>
+	<body class="bg-emerald-950">
+		<div class="max-w-7xl mx-auto">
+			<!-- Navigation -->
+			<nav class="border-b shadow-lg bg-white">
+				<div class="drawer">
+					<input
+						id="my-drawer-3"
+						type="checkbox"
+						class="drawer-toggle"
+					/>
+					<div class="drawer-content flex flex-col">
+						<div class="navbar bg-base-300 w-full">
+							<div class="flex-none lg:hidden">
+								<label
+									for="my-drawer-3"
+									aria-label="open sidebar"
+									class="btn btn-square btn-ghost"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										class="inline-block h-6 w-6 stroke-current"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M4 6h16M4 12h16M4 18h16"
+										></path>
+									</svg>
+								</label>
+							</div>
+							<div class="mx-2 flex-1 px-2">
+								<div
+									class="flex flex-row lg:flex-col justify-center items-center gap-5 lg:gap-1"
+								>
+									<img
+										src="assets/Mahmud.jpg"
+										alt="Mahmud"
+										class="rounded-full border w-16"
+									/>
+									<span class="font-bold text-lg"
+										>Mahmud's Portfolio</span
+									>
+								</div>
+							</div>
+							<div class="hidden flex-none lg:block">
+								<ul class="menu menu-horizontal">
+									<li><a href="#about">About Me</a></li>
+									<li><a href="#resume">Resume</a></li>
+									<li><a href="#skills">Skillsets</a></li>
+									<li><a href="#projects">Projects</a></li>
+									<li><a href="#education">Education</a></li>
+									<li><a href="#contact">Contact Me</a></li>
+								</ul>
+								<div class="menu menu-horizontal">
+									<input
+										type="checkbox"
+										value="synthwave"
+										class="toggle theme-controller"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="drawer-side">
+						<label
+							for="my-drawer-3"
+							aria-label="close sidebar"
+							class="drawer-overlay"
+						></label>
+						<ul
+							class="menu bg-base-200 min-h-full w-36 p-4 items-center"
+						>
+							<li class="text-lg text-center">
+								Mahmud Hasan Khan
+							</li>
+							<li class="mb-4">
+								<img
+									src="assets/Mahmud.jpg"
+									alt="Mahmud"
+									class="rounded-full border w-16"
+								/>
+							</li>
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#resume">Resume</a></li>
+							<li><a href="#skills">Skillsets</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#education">Education</a></li>
+							<li><a href="#contact">Contact Me</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Intro Section -->
+			<section id="about" class="p-10 bg-white shadow-lg">
+				<div class="container mx-auto text-center animate-on-hover">
+          <h1 class="text-4xl tracking-widest font-bold mb-4 text-center animated-text" data-text="Hello World!">
+                <span>H</span><span>e</span><span>l</span><span>l</span><span>o</span>
+                <span> </span><span>W</span><span>o</span><span>r</span><span>l</span><span>d</span><span>!</span>
+                <span class="cursor">|</span>
+            </h1>
         </div>
-        <div class="drawer-side">
-          <label
-            for="my-drawer-3"
-            aria-label="close sidebar"
-            class="drawer-overlay"
-          ></label>
-          <ul class="menu bg-base-200 min-h-full w-36 p-4 items-center">
-            <!-- Sidebar content here -->
-             <li class="text-lg text-center">Mahmud Hasan Khan</li>
-             <li class="mb-4"><img
-                src="assets/Mahmud.jpg"
-                alt="Mahmud"
-                class="rounded-full border "
-            ></img></li>
-            <li><a>About Me</a></li>
-            <li><a>Resume</a></li>
-            <li><a>Skillsets</a></li>
-            <li><a>Projects</a></li>
-            <li><a>Education</a></li>
-            <li><a>Contact Me</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+				<div class="container mx-auto text-center flex flex-col lg:flex-row justify-center">
+					<div class="lg:border-r w-full lg:w-1/2 mb-4">
+						<h1 class="text-xl lg:text-4xl mb-2 font-bold">
+							I am <br />
+							Mahmud Hasan Khan
+						</h1>
+						<div class="">
+							<img
+								class="w-72 mx-auto"
+								src="assets/frameMahmud.png"
+								alt=""
+							/>
+						</div>
+					</div>
+					<div class="w-full lg:w-1/2 flex flex-col justify-center px-5">
+						<p class="text-lg text-gray-700 mb-6">
+							I am a passionate Frontend Developer with experience
+							in building web applications using modern
+							technologies. I enjoy turning complex problems into
+							simple, beautiful, and intuitive designs.
+						</p>
+            <div class="flex justify-center gap-6">
+              <button class="btn btn-primary">
+							<a href="#contact">Get in Touch</a>
+						</button>
+              <button class="btn btn-primary">
+							<a href="#contact">Get Me Hired</a>
+						</button>
+            </div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Resume Section -->
+			<section id="resume" class="p-10 bg-gray-50">
+				<div class="container mx-auto text-center">
+					<h2 class="text-3xl font-bold mb-4">Resume</h2>
+					<p class="text-lg text-gray-700 mb-6">
+						Download my resume to know more about my skills and
+						experiences.
+					</p>
+					<a href="assets/resume.txt" download class="btn btn-primary"
+						>Download Resume</a
+					>
+				</div>
+			</section>
+
+			<!-- Skills Section -->
+			<section id="skills" class="p-10 bg-white shadow-lg">
+				<div class="container mx-auto">
+					<h2 class="text-3xl font-bold mb-6 text-center">
+						Skillsets
+					</h2>
+					<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+						<div class="p-4 bg-gray-100 rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">HTML</h3>
+							<p>
+								Proficient in creating structured and semantic
+								web pages.
+							</p>
+						</div>
+						<div class="p-4 bg-gray-100 rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">CSS</h3>
+							<p>
+								Experienced in designing responsive and visually
+								appealing layouts.
+							</p>
+						</div>
+						<div class="p-4 bg-gray-100 rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">
+								JavaScript
+							</h3>
+							<p>
+								Skilled in adding dynamic and interactive
+								elements to web pages.
+							</p>
+						</div>
+						<div class="p-4 bg-gray-100 rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">React</h3>
+							<p>
+								Knowledgeable in building single-page
+								applications with React.
+							</p>
+						</div>
+						<!-- Add more skills as needed -->
+					</div>
+				</div>
+			</section>
+
+			<!-- Projects Section -->
+			<section id="projects" class="p-10 bg-gray-50">
+				<div class="container mx-auto">
+					<h2 class="text-3xl font-bold mb-6 text-center">
+						Projects
+					</h2>
+					<div
+						class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+					>
+						<div class="p-4 bg-white rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">
+								Project 1
+							</h3>
+							<p class="text-gray-700">
+								Description of the project.
+							</p>
+							<a href="#" class="text-blue-500 hover:underline"
+								>View Project</a
+							>
+						</div>
+						<div class="p-4 bg-white rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">
+								Project 2
+							</h3>
+							<p class="text-gray-700">
+								Description of the project.
+							</p>
+							<a href="#" class="text-blue-500 hover:underline"
+								>View Project</a
+							>
+						</div>
+						<div class="p-4 bg-white rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">
+								Project 3
+							</h3>
+							<p class="text-gray-700">
+								Description of the project.
+							</p>
+							<a href="#" class="text-blue-500 hover:underline"
+								>View Project</a
+							>
+						</div>
+						<!-- Add more projects as needed -->
+					</div>
+				</div>
+			</section>
+
+			<!-- Education Section -->
+			<section id="education" class="p-10 bg-white shadow-lg">
+				<div class="container mx-auto">
+					<h2 class="text-3xl font-bold mb-6 text-center">
+						Education
+					</h2>
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+						<div class="p-4 bg-gray-100 rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">
+								Degree Name
+							</h3>
+							<p class="text-gray-700">University Name, Year</p>
+						</div>
+						<div class="p-4 bg-gray-100 rounded-lg shadow">
+							<h3 class="text-xl font-semibold mb-2">
+								Another Degree
+							</h3>
+							<p class="text-gray-700">University Name, Year</p>
+						</div>
+						<!-- Add more education details as needed -->
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact Section -->
+			<section id="contact" class="p-10 bg-gray-50">
+				<div class="container mx-auto text-center">
+					<h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+					<p class="text-lg text-gray-700 mb-6">
+						Feel free to reach out to me for any opportunities or
+						just to say hi!
+					</p>
+					<form class="max-w-lg mx-auto">
+						<div class="mb-4">
+							<input
+								type="text"
+								class="input input-bordered w-full"
+								placeholder="Your Name"
+								required
+							/>
+						</div>
+						<div class="mb-4">
+							<input
+								type="email"
+								class="input input-bordered w-full"
+								placeholder="Your Email"
+								required
+							/>
+						</div>
+						<div class="mb-4">
+							<textarea
+								class="textarea textarea-bordered w-full"
+								rows="4"
+								placeholder="Your Message"
+								required
+							></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">
+							Send Message
+						</button>
+					</form>
+				</div>
+			</section>
+
+			<!-- Footer Section -->
+			<footer class="bg-base-300 p-4 text-center">
+				<div class="container mx-auto">
+					<p class="text-gray-600">
+						&copy; 2024 Mahmud Hasan Khan. All rights reserved.
+					</p>
+					<div class="flex justify-center mt-4">
+						<a
+							href="#"
+							class="mx-2 text-gray-600 hover:text-gray-800"
+							><i class="fab fa-twitter"></i
+						></a>
+						<a
+							href="#"
+							class="mx-2 text-gray-600 hover:text-gray-800"
+							><i class="fab fa-linkedin"></i
+						></a>
+						<a
+							href="#"
+							class="mx-2 text-gray-600 hover:text-gray-800"
+							><i class="fab fa-github"></i
+						></a>
+						<!-- Add more social links as needed -->
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="index.js"></script>
+	</body>
 </html>
