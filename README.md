@@ -9,8 +9,8 @@ My journey into Software Industry hasn't been without its challenges. Transition
 
 <h3 align="left">Connect with me:</h3>
 <p align="middle" style="display: flex; flex-wrap: wrap; gap: 20px;">
-<a href="https://www.linkedin.com/in/mahmud-hasan-webdev" target="_blank"><img src="https://i.ibb.co/RCF4sgP/icons8-linkedin-96.png" alt="icons8-linkedin-96" border="0"></a>
-<a href="mailto:mahmud.me09@gmail.com"><img src="https://i.ibb.co/LgJkmX2/icons8-gmail-96.png" alt="icons8-gmail-96" border="0"></a>
+<a href="https://www.linkedin.com/in/mahmud-hasan-webdev" target="_blank"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" alt="linkedin" border="0"></a>
+<a href="mailto:mahmud.me09@gmail.com"><img src="https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg" alt="Gmail" border="0"></a>
 </p>
 
 <h3 align="left">Stuff I am Comfortable With:</h3>
