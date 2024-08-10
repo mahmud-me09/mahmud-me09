@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/gFbJ53c/1714668614643.jpg" alt="1714668614643" border="0">
+<img src="https://www.linkedin.com/in/mahmud-hasan-webdev/overlay/background-image/" alt="Banner" border="0">
 <h1 align="center">Hi 👋, I'm Mahmud Hasan Khan</h1>
 <h3 align="center">A passionate Front-End Web Developer transitioning to Full-Stack Development.</h3>
 <p text-align="justify">Greetings, I'm Mahmud Hasan Khan, a B.Sc. Engineer from Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh. Currently, I'm working in the project management team of the power generation industry. However, my true passion lies in software engineering.
