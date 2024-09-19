@@ -3,7 +3,7 @@
 <h3 align="center">A passionate Front-End Web Developer transitioning to Full-Stack Development.</h3>
 <p text-align="justify">Greetings, I'm Mahmud Hasan Khan, a B.Sc. Engineer from Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh. Currently, I'm working in the project management team of the power generation industry. However, my true passion lies in software engineering.
 
-My fascination with programming languages has led me into web development arena. Some of the websites I created includes Blogging, Restaurant Management, Book Reviews, Real Estate, Tourism Management, and Smart Ticketing systems. My preferred tech stack revolves around MongoDB, ExpressJS, ReactJS, and NodeJS (MERN Stack), and Firebase for authentication. I take pride in seamlessly integrating these technologies into my projects. I also work with Python and its frameworks like Django, Django REST Framework. I am now exploring backend technologies and tools to integrate in my future projects. I love to explore new things.
+My fascination with programming languages has led me into web development arena. Some of the websites I created includes Blogging, Restaurant Management, Book Reviews, Real Estate, Tourism Management, and Smart Ticketing systems. My preferred tech stack is MERN Stack, i.e., MongoDB, ExpressJS, ReactJS, and NodeJS. I am confortable in integrating supporting technologies like Firebase for authentication, JWT for authentication and authorization, web socket for event based client server communication into my projects. I am also exploring Python and its frameworks like Django, Django REST Framework for my grip into backend technologies to integrate in my future projects. I am a consistant learner.
   
 My journey into Software Industry hasn't been without its challenges. Transitioning from a different engineering discipline comes with its own set of hurdles, particularly in an industry where recruiters often have preset expectations of relevant educational background. Yet, fueled by my unwavering dedication and a thirst for overcoming challenges, I am determined to break through these barriers and establish myself in the software engineering domain. First door is the web development in my case.</p>
 
@@ -11,6 +11,7 @@ My journey into Software Industry hasn't been without its challenges. Transition
 <p align="middle" style="display: flex; flex-wrap: wrap; gap: 20px;">
 <a href="https://www.linkedin.com/in/mahmud-hasan-webdev" target="_blank"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" alt="linkedin" border="0"></a>
 <a href="mailto:mahmud.me09@gmail.com"><img src="https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg" alt="Gmail" border="0"></a>
+<a href="https://mahmud-me09.github.io/mahmud-me09/" target="_blank"><img src="./assets/website.ico" alt="linkedin" border="0"></a>
 </p>
 
 <h3 align="left">Stuff I am Comfortable With:</h3>
