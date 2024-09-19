@@ -5,7 +5,7 @@
 
 My fascination with programming languages has led me into web development arena. Some of the websites I created includes Blogging, Restaurant Management, Book Reviews, Real Estate, Tourism Management, and Smart Ticketing systems. My preferred tech stack is MERN Stack, i.e., MongoDB, ExpressJS, ReactJS, and NodeJS. I am confortable in integrating supporting technologies like Firebase for authentication, JWT for authentication and authorization, web socket for event based client server communication into my projects. I am also exploring Python and its frameworks like Django, Django REST Framework for my grip into backend technologies to integrate in my future projects. I am a consistant learner.
   
-My journey into Software Industry hasn't been without its challenges. Transitioning from a different engineering discipline comes with its own set of hurdles, particularly in an industry where recruiters often have preset expectations of relevant educational background. Yet, fueled by my unwavering dedication and a thirst for overcoming challenges, I am determined to break through these barriers and establish myself in the software engineering domain. First door is the web development in my case.</p>
+My journey into Software Industry hasn't been without its challenges. Transitioning from a different engineering discipline comes with its own set of hurdles, particularly in an industry where recruiters often have preset expectations of relevant educational background. Yet, pumped up for my unwavering dedication and a thirst for overcoming challenges, I am determined to break through these barriers and establish myself in the software engineering domain. First door is the web development in my case. Wish me good luck.</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="middle" style="display: flex; flex-wrap: wrap; gap: 20px;">
@@ -51,4 +51,4 @@ My journey into Software Industry hasn't been without its challenges. Transition
     <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="50" height="50"/>
   </p>
 
-<p align="center" style="width:100vw"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mahmud-me09&show_icons=true&locale=en&layout=compact" alt="mahmud-me09" /></p>
+<p align="center" style="width:100%"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mahmud-me09&show_icons=true&locale=en&layout=compact" alt="mahmud-me09" /></p>
