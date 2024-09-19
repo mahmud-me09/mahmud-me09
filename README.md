@@ -9,40 +9,22 @@ My journey into Software Industry hasn't been without its challenges. Transition
 
 <h3 align="left">Connect with me:</h3>
 <p align="middle" style="display: flex; flex-wrap: wrap; gap: 20px;">
-<a href="https://www.linkedin.com/in/mahmud-hasan-webdev" target="_blank"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" alt="linkedin" border="0"></a>
-<a href="mailto:mahmud.me09@gmail.com"><img src="https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg" alt="Gmail" border="0"></a>
-<a href="https://mahmud-me09.github.io/mahmud-me09/" target="_blank"><img src="./assets/website.ico" alt="linkedin" border="0"></a>
+<a href="https://www.linkedin.com/in/mahmud-hasan-webdev" rel="noopener" target="_blank"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" alt="linkedin" border="0"></a>
+<a href="mailto:mahmud.me09@gmail.com" rel="noopener"><img src="https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg" alt="Gmail" border="0"></a>
+<a href="https://mahmud-me09.github.io/mahmud-me09/" rel="noopener" target="_blank"><img src="./assets/website.ico" alt="linkedin" border="0"></a>
 </p>
 
 <h3 align="left">Stuff I am Comfortable With:</h3>
 <p align="middle" style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50"/>
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50"/>
-  </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="50" height="50"/>
-  </a>
-   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="50" height="50"/>
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="50" height="50"/>
-  </a>
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="50" height="50"/>
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="50" height="50"/>
-  </a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="50" height="50"/>
-  </a>
 </p>
 <h3 align="left">Technologies I am learning now:</h3>
 <p align="middle" style="display: flex; flex-wrap: wrap; gap: 20px;">
