@@ -1,6 +1,6 @@
 <img src="./assets/banner.jpeg" alt="Banner" border="0">
 <h1 align="center">Hi 👋, I'm Mahmud Hasan Khan</h1>
-<h3 align="center">Full-Stack Developer</h3>
+<h2 align="center">Full-Stack Web Developer</h2>
 <p text-align="justify">Greetings, I'm Mahmud Hasan Khan, a B.Sc. Engineer from Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh. Currently, I'm working in the project management team of the power generation industry. However, my true passion lies in software engineering.
 
 My fascination with programming languages has led me into web development arena. Some of the websites I created includes Blogging, Restaurant Management, Book Reviews, Real Estate, Tourism Management, and Smart Ticketing systems. My preferred tech stack is MERN Stack, i.e., MongoDB, ExpressJS, ReactJS, and NodeJS. I am confortable in integrating supporting technologies like Firebase for authentication, JWT for authentication and authorization, web socket for event based client server communication into my projects. I am also exploring Python and its frameworks like Django, Django REST Framework for my grip into backend technologies to integrate in my future projects. I am a consistant learner.
