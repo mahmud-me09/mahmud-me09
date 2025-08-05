@@ -22,10 +22,10 @@ My transition from engineering to software and data science has not been without
   <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python" width="50" height="50"/>
   <img src="https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg" alt="R" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" alt="Scikit-learn" width="50" height="50"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="70" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" width="50" height="50"/>
-  <img src="https://github.com/statsmodels/statsmodels/raw/main/docs/source/_static/logo-long.png" alt="Statsmodels" width="80"/>
+  <img src="https://raw.githubusercontent.com/statsmodels/statsmodels/main/docs/source/_static/logo-long.png" alt="Statsmodels" height="50"/>
 </p>
 
 <h3 align="left">💻 Full-Stack Development (Hobbyist):</h3>
