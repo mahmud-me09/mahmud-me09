@@ -21,11 +21,11 @@ My transition from engineering to software and data science has not been without
 <p align="middle" style="display: flex; flex-wrap: wrap; gap: 20px;">
   <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python" width="50" height="50"/>
   <img src="https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg" alt="R" width="50" height="50"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Pandas_logo.svg" alt="Pandas" width="50" height="50"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="50" height="50"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/TensorFlow_logo.svg" alt="TensorFlow" width="50" height="50"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" width="50" height="50"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Statsmodels_logo.svg/512px-Statsmodels_logo.svg.png" alt="Statsmodels" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" alt="Scikit-learn" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" width="50" height="50"/>
+  <img src="https://github.com/statsmodels/statsmodels/raw/main/docs/source/_static/logo-long.png" alt="Statsmodels" width="80"/>
 </p>
 
 <h3 align="left">💻 Full-Stack Development (Hobbyist):</h3>
