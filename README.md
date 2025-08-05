@@ -25,7 +25,6 @@ My transition from engineering to software and data science has not been without
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="70" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" alt="Keras" width="50" height="50"/>
-  <img src="https://raw.githubusercontent.com/statsmodels/statsmodels/main/docs/source/_static/logo-long.png" alt="Statsmodels" height="50"/>
 </p>
 
 <h3 align="left">💻 Full-Stack Development (Hobbyist):</h3>
