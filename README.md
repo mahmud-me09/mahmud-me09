@@ -12,7 +12,7 @@ My transition from engineering to software and data science has not been without
 
 <h3 align="left">Connect with me:</h3>
 <p align="middle" style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <a href="www.linkedin.com/in/mahmud-cea" target="_blank" rel="noopener"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" alt="LinkedIn" border="0"></a>
+  <a href="https://www.linkedin.com/in/mahmud-cea" target="_blank" rel="noopener"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" alt="LinkedIn" border="0"></a>
   <a href="mailto:mahmud.me09@gmail.com" rel="noopener"><img src="https://www.vectorlogo.zone/logos/gmail/gmail-ar21.svg" alt="Gmail" border="0"></a>
   <a href="https://mahmud-me09.github.io/mahmud-me09/" target="_blank" rel="noopener"><img src="./assets/website.ico" alt="Website" border="0"></a>
 </p>
